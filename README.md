@@ -81,14 +81,10 @@ Vulnerability #2: Cross-Site Request Forgery
 
 ## Bonus Objective 2: Build on Objective #4 (Cross-Site Scripting)
 
-    - <img src = 'bonus.gif' title='Build on Objective' width='' alt='' />
-    - I use <script>document.location="https://www.youtube.com"</script> in Feedback in Contact Us, then go to the feedback section in Staff Menu, it should direct the page to youtube.
+   - <img src = 'bonus.gif' title='Build on Objective' width='' alt='' />
+   - I use <script>document.location="https://www.youtube.com"</script> in Feedback in Contact Us, then go to the feedback section in Staff Menu, it should direct the page to youtube.
 
-Notes
-    
-
-
-
+  
 ## Notes
 
 Describe any challenges encountered while doing the work
