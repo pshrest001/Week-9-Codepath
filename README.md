@@ -17,7 +17,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Blue
 
 Vulnerability #1: SQL Injection 
-    - <img src='Blueone.demo.gif' title='CROSS-SITE SCRIPTING' width='' alt='' />
+    - <img src='Blueone.gif' title='CROSS-SITE SCRIPTING' width='' alt='' />
     -[x] Steps to follow:
       - Find the sales person any that you want to choose
       - Change the value of the id 
@@ -30,7 +30,7 @@ Vulnerability #1: SQL Injection
 
 
 Vulnerability #2: Session Hijacking/Fixation
-      - <img src ='Bluwtwo.demo.gif' title='Session Hijacking' width='' alt='' />
+      - <img src ='Bluwtwo.gif' title='Session Hijacking' width='' alt='' />
       - [x] steps followed 
         - Two different browsers are needed 
         - Login into blue Globitek website 
@@ -42,7 +42,7 @@ Vulnerability #2: Session Hijacking/Fixation
 ## Green
 
 Vulnerability #1: Username Enumeration 
-      - <img src ='Greenone.demo.gif' title='Username Enumeration' width='' alt='' />
+      - <img src ='Greenone.gif' title='Username Enumeration' width='' alt='' />
       - [x] steps followed
         - Try login using random username and password 
         - It shows Login was unsuccessful 
@@ -53,7 +53,7 @@ Vulnerability #1: Username Enumeration
         
 
 Vulnerability #2: Cross-Site Scripting 
-       - <img src ='greentwo.demo.gif' title='Cross-Site Scripting' width='' alt=''/>
+       - <img src ='greentwo.gif' title='Cross-Site Scripting' width='' alt=''/>
        -[x] steps to be followed
         - Users should login and fill the name, email and feedback 
         - Try filling any random name and email 
@@ -65,7 +65,7 @@ Vulnerability #2: Cross-Site Scripting
 ## Red
 
 Vulnerability #1:Insecure Direct Object Reference 
-      - <img src = 'Red one.demo.gif' title='Insecure Direct Object Reference' width='' altt=''/>
+      - <img src = 'Red one.gif' title='Insecure Direct Object Reference' width='' altt=''/>
       - [x] steps to be followed 
           - Find the salesperson section of the red, 
           -  https://35.184.234.47/red/public/salesperson.php?id=X
@@ -74,14 +74,14 @@ Vulnerability #1:Insecure Direct Object Reference
            -  whereas in  blue or green site, when you enter id=10 or id=11, then it will go back to Find a Salesperson page.
 
 Vulnerability #2: Cross-Site Request Forgery 
-       - <iimg src = 'red two.demo.gif' title='Cross-Site Request Forgery' width='' alt='' />
+       - <iimg src = 'red two.gif' title='Cross-Site Request Forgery' width='' alt='' />
        - [x] steps to be followed
           - red section gets updated while editing the info after changing CSRD_TOKEN
           - Whereas it shows "Error:invalid request" in blue and green 
 
 ## Bonus Objective 2: Build on Objective #4 (Cross-Site Scripting)
 
-    - <img src = 'bonus.demo.gif' title='Build on Objective' width='' alt='' />
+    - <img src = 'bonus.gif' title='Build on Objective' width='' alt='' />
     - I use <script>document.location="https://www.youtube.com"</script> in Feedback in Contact Us, then go to the feedback section in Staff Menu, it should direct the page to youtube.
 
 Notes
